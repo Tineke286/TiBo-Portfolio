@@ -1,0 +1,588 @@
+/* CSS Document */
+
+ * {
+font-family: 'Roboto', sans-serif;}
+
+@media only screen and (min-width: 320px) {
+
+header, main, .bannertekstpag6 {
+    margin: 10px;
+}
+h1 {
+    font-size: 2.1em;
+}
+h2 {
+    font-size: 2em;
+    font-weight: 700;
+}
+.content h2 {
+font-size: 0.9em;
+font-weight: 300;
+letter-spacing: 2px;
+/*color: #6C2EB9;*/
+    }
+.content p {
+font-weight: 300;
+font-size: 0.8em;
+color: gray;
+line-height: 1.5em;
+    }
+h3 {
+    font-size: 2em;
+    font-weight: 900;
+    color: #0099a8;
+    letter-spacing: 1px;
+}
+/*h4 is identiek aan H3, maar paars ipv groen*/
+h4 {
+    font-size: 2em;
+    font-weight: 900;
+    color: #4F2066;
+/*    color: #6C2EB9;*/
+    letter-spacing: 1px;
+}
+/*h5 op pagina 6*/
+h5 {   
+    font-size: 1em;
+    font-weight: 700;
+    color: #0099a8;
+}
+body p {
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+nav.sub a {
+    display: block;
+    padding-bottom: .4em;
+    font-size: 2.1em;
+    font-weight: 700;
+    color: #4F2066;
+/*    color: #6C2EB9;*/
+    text-decoration: none;
+}
+nav.sub ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav.sub ul ul {
+    margin-left: 20px;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+}
+nav.sub ul ul a {
+    color: #835B9F;
+    line-height: 0.8;
+}
+.banner img {
+    padding: 1em 0em;
+}
+.logo {
+    position: relative;
+}
+.logo img {
+    width: 100%;
+    height: auto;
+}
+#logotekst {
+    position: relative;
+    color: magenta;
+    font-size: 1.85em;
+    letter-spacing: 0.7px;
+    font-weight: 500;
+    margin: 0em;
+    padding-bottom: 1em;
+}
+.tekst1 span, .tekst2 span {
+    font-size: 1.1em;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    color: black;
+}
+.h4portfolio {
+    width: 100%;
+    float: left;
+}
+/*Styling voor locale en externe film*/
+.inhoudfilm {
+    display: flex;
+    position: relative;
+}
+.filmintern, .filmextern {
+    display: flex;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.filmintern video, .filmextern object {
+    width: 280px;
+    height: 280px;
+}
+.fullscreen {
+    display: block;
+    position: absolute;
+    bottom: -5.5%;
+    left: 20px;
+    }
+.fullscreen a {
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    color: white;
+    text-decoration: none;
+    }
+footer {
+    background-color: lightgrey;
+    width: 100%;
+    height: 6em;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+}
+.icons {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 0.7em;
+    margin: auto;
+    }
+.icons img {
+    margin: 0.5em;
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0.5em;
+}
+/*Styling voor contactformulier op pagina 6*/
+iframe {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    top: 25px;
+}
+.contactformulier, .bezoekadres {
+    display: block;
+    position: relative;
+    top: 50px;
+    width: 100%;
+    }
+.contactformulier h2, .bezoekadres h2 {
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #0099a8;
+    margin-left: 10px;
+    }
+#naam, #email, #telefoonnummer, #bericht  {
+    width: 100%;
+    margin-bottom: 20px;
+    }
+.contactformulier input[type=text]{
+    width: 100%;
+    height: 40px;
+    padding; 100px;
+    border: 1px solid #0099a8;
+    resize: vertical;
+    }
+textarea {
+    width: 100%;
+    height: 150px;
+    padding; 100px;
+    border: 1px solid #0099a8;
+    resize: vertical;
+    }
+small {
+    color: #0099a8;    
+}
+/*checkboxtekst op pagina 6*/
+.checkbox {
+    margin-bottom: 50px;
+}
+.checkbox span {
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #0099a8;
+    }
+/*styling bezoekadres op pagina 6*/
+.bezoekadres{
+    margin-left: 60px;
+}
+.bezoekadres h5 {
+    margin-top: 45px;
+    margin-left: 10px;
+    }
+.bezoekadres p {
+    margin-top: 1px;
+    margin-left: 10px;
+    }
+.bezoekadres a {
+    text-decoration: none;
+    color: #0099a8;
+}
+/*styling voor verzendknop op pagina 6*/
+.verzendknop {
+    display: block;
+    position: relative;
+    top: -30px;
+    z-index: 1;
+    }
+button.button {
+    background-color: #0099a8;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 10px 12px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 1px;    
+    margin-left: 0;
+}
+.pagina6footer {
+    display: flex;
+    position: relative;
+    top: 100px;
+    }
+}
+
+    
+@media only screen and (min-width: 640px) {
+
+header, main, .bannertekstpag6 {
+    margin: 0px;
+}
+h2 {
+    font-size: 1.2em;
+}
+h3 {
+    font-size: 1em;
+    top: 1em;
+}
+h4 {
+    font-size: 1em;
+}
+body p {
+    font-size: 0.9em;
+    line-height: 1.8em;
+    }
+nav.sub {
+	margin-top: 3em;
+    margin-left: 0;
+	position: relative;
+    max-width: 900px;
+    margin: auto;
+}
+nav.sub a {
+	padding: 1em;
+	font-size: 0.7em;
+	font-weight: 700;
+}
+nav.sub ul {
+	display: flex;
+    float: right;
+}
+nav.sub ul ul {
+	display: none;
+}
+nav.sub ul ul {
+    margin-left: 0px;
+    font-size: 1.0em;
+    position: absolute;
+    top: 136%;
+}
+nav.sub ul ul a {
+    color: #835B9F;
+    line-height: 0.01;
+}
+nav.sub > ul {
+	height: 70px;
+}
+nav.sub a:hover,
+nav.sub a:focus {
+	color: magenta;
+	transition: all .2s ease-in-out .05s;
+}
+nav.sub li:hover ul,
+nav.sub li:focus ul {
+	display: flex;
+	flex-flow: column;
+}
+#activelink {
+  color: #0099a8;
+}
+.wrapper {
+	width: 100%;
+}
+.logo {
+    position: relative;
+    display: flex;
+    align-content: center;
+    width: 25%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0em;
+    text-align: center;
+    }
+.logo img {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-left: -11.2px;
+    padding-right: 15px;
+    top: 56px;
+    }
+#logotekst {
+    position: absolute;
+    color: white;
+    top: 132.5%;
+    left: 6%;
+    transform: translate(0%, 8%);
+    font-size: 0.59em;
+    margin: 0px;
+    }
+.banner img {
+    margin-top: 0px;
+    padding: 0em;
+    }
+    
+/*Styling hover-links foto's*/
+.inhoud img:hover{
+    opacity: 0.6;
+    transition: 0.6s;
+}
+.inhoudfilm img:hover{
+    opacity: 0.6;
+    transition: 0.6s;
+}
+
+/*Styling contactpagina = pagina 6*/
+.containerbannertekst {
+    display: flex;
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+    align-items: center;
+}
+.bannertekstpag6 {
+    position: absolute;
+    color: white;
+    text-align: left;
+    bottom: 0;
+    z-index: 1;
+    background-color: #0099a8;
+    padding: 1% 0;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.bannertekstpag6 h2 {
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 2px;    
+}
+.bannertekstpag6 p {
+    font-size: 0.8em;
+    letter-spacing: 0.3px;
+}
+iframe {
+    height: 300px;
+}
+/*Styling voor locale en externe film*/
+.filmintern, .filmextern {
+    left: 5px;
+    top: 5px;
+}
+.filmintern video, .filmextern object {
+    width: 100px;
+    height: 100px;
+    }
+.fullscreen {
+    bottom: -20%;
+    left: 5px;
+    }
+.fullscreen a {
+    font-size: 0.9em;
+    }
+
+* {
+    box-sizing: border-box;
+}
+header img {
+    width: 100%;
+}
+body {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+main {
+    max-width: 900px;
+    margin: auto;
+    }
+.flexcontainer1 {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.tekst1, .tekst2 {
+    position: relative;
+    top: 1em;
+    width: 26em;
+    height: auto;
+    text-align: left;
+    margin-right: 2.1em;
+    flex: auto;
+    float: left;
+}
+.lijn01 {
+    position: relative;
+    top: 4px;
+}
+.lijn02 {
+    top: 143px;
+}
+.flexcontainer2 {
+    display: contents;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fotovideo {
+    margin: 8px -16px;
+}
+.fotovideo,
+.fotovideo > .vlakken {
+    padding: 8px;
+}
+.vlakken {
+    float: left;
+    width: 20%;
+}
+.row {
+    margin: 8px -16px;
+}
+.row,
+.row > .column {
+    padding: 8px;
+}
+.column {
+    float: left;
+    width: 33.3%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.content {
+    background-color: white;
+    padding: 10px;
+}
+.icons img {
+    width: 3.5em;
+    height: 3.5em;
+}
+}
+
+
+@media only screen and (min-width: 800px) {
+
+h3 {
+    font-size: 1em;
+}
+#logotekst {
+    top: 132%;
+    left: 7%;
+    font-size: 0.75em;
+}
+.logo img {
+    top: 70px;
+}
+nav.sub a {
+    font-weight: 700;
+    font-size: 0.85em;
+}
+.banner img {
+    margin-top: 25px;
+}
+.bannertekstpag6 {
+    bottom: 5px;
+}
+.bannertekstpag6 h2 {
+    font-size: 1.6em;
+}
+.bannertekstpag6 p {
+    font-size: 0.9em;
+}
+/*Styling voor locale en externe film*/
+.filmintern video, .filmextern object {
+    width: 132px;
+    height: 132px;
+}
+.fullscreen {
+    bottom: -15%;
+    left: 5px;
+    }
+.fullscreen a {
+    font-size: 1.1em;
+}
+}
+
+    
+@media only screen and (min-width: 1024px) {
+
+#logotekst {
+    top: 128%;
+    left: 8%;
+    font-size: 0.9em;
+}
+.logo img {
+    top: 79px;
+    }
+nav.sub a {
+    font-size: 1em;
+}
+.banner img {
+    margin-top: 50px;
+}
+.bannertekstpag6 {
+    bottom: 5px;
+}
+.bannertekstpag6 h2 {
+    font-size: 2em;
+}
+.bannertekstpag6 p {
+    font-size: 1em;
+}
+body {
+    padding: 0px;
+}
+/*Styling voor locale en externe film*/
+.filmintern video, .filmextern object {
+    width: 158px;
+    height: 158px;
+}
+.fullscreen {
+    bottom: -11.5%;
+    left: 5px;
+}
+.fullscreen a {
+    font-size: 1.1em;
+}
+}
+    
+    
+@media only screen and (min-width: 1280px) {
+
+}
+
+
+
+
