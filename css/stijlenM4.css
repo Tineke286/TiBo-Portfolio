@@ -16,17 +16,16 @@ h2 {
     font-weight: 700;
 }
 .content h2 {
-font-size: 0.9em;
-font-weight: 300;
-letter-spacing: 2px;
-/*color: #6C2EB9;*/
-    }
+    font-size: 0.9em;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
 .content p {
-font-weight: 300;
-font-size: 0.8em;
-color: gray;
-line-height: 1.5em;
-    }
+    font-weight: 300;
+    font-size: 0.8em;
+    color: gray;
+    line-height: 1.5em;
+}
 h3 {
     font-size: 2em;
     font-weight: 900;
@@ -38,7 +37,6 @@ h4 {
     font-size: 2em;
     font-weight: 900;
     color: #4F2066;
-/*    color: #6C2EB9;*/
     letter-spacing: 1px;
 }
 /*h5 op pagina 6*/
@@ -58,7 +56,6 @@ nav.sub a {
     font-size: 2.1em;
     font-weight: 700;
     color: #4F2066;
-/*    color: #6C2EB9;*/
     text-decoration: none;
 }
 nav.sub ul {
@@ -94,11 +91,22 @@ nav.sub ul ul a {
     margin: 0em;
     padding-bottom: 1em;
 }
-.tekst1 span, .tekst2 span {
+.tekst1 span {
     font-size: 1.1em;
-    font-weight: 700;
+    font-weight: 900;
     letter-spacing: 0.1px;
     color: black;
+}
+.tekstlink {
+    font-size: 1.1em;
+    font-weight: 900;
+    letter-spacing: 0.1px;
+    color: black;
+    text-decoration: none;
+}
+.tekst2 a:hover {
+    color: magenta;
+	transition: all .2s ease-in-out .05s;
 }
 .h4portfolio {
     width: 100%;
@@ -228,7 +236,7 @@ small {
     position: relative;
     top: -30px;
     z-index: 1;
-    }
+}
 button.button {
     background-color: #0099a8;
     border: none;
