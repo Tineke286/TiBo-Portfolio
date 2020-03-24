@@ -48,13 +48,13 @@ h5 {
 }
 body p {
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.5em;
 }
 nav.sub a {
     display: block;
     padding-bottom: .4em;
-    font-size: 2.1em;
+    font-size: 1em;
     font-weight: 700;
     color: #4F2066;
     text-decoration: none;
@@ -93,7 +93,7 @@ nav.sub ul ul a {
     padding-bottom: 1em;
 }
 .tekst1 span {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 900;
     letter-spacing: 0.1px;
     color: black;
@@ -262,7 +262,7 @@ button.button {
 
     
 @media only screen and (min-width: 640px) {
-
+    
 header, main, .bannertekstpag6 {
     margin: 0px;
 }
