@@ -27,14 +27,14 @@ h2 {
     line-height: 1.5em;
 }
 h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 900;
     color: #0099a8;
     letter-spacing: 1px;
 }
 /*h4 is identiek aan H3, maar paars ipv groen*/
 h4 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 900;
 /*    color: #4F2066;*/
     color: #0099a8;
@@ -54,7 +54,7 @@ body p {
 nav.sub a {
     display: block;
     padding-bottom: .4em;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 700;
     color: #4F2066;
     text-decoration: none;
@@ -66,7 +66,7 @@ nav.sub ul {
 }
 nav.sub ul ul {
     margin-left: 20px;
-    font-size: 0.8em;
+    font-size: 1em;
     padding-bottom: 10px;
 }
 nav.sub ul ul a {
@@ -74,7 +74,7 @@ nav.sub ul ul a {
     line-height: 0.8;
 }
 .banner img {
-    padding: 1em 0em;
+    padding: 0.1em 0em;
 }
 .logo {
     position: relative;
