@@ -376,6 +376,10 @@ nav.sub li:focus ul {
     opacity: 0.6;
     transition: 0.6s;
 }
+.content img:hover {
+    opacity: 0.6;
+    transition: 0.6s;
+    }
 
 /*Styling contactpagina = pagina 6*/
 .containerbannertekst {
