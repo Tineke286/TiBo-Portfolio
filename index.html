@@ -84,8 +84,9 @@
                     <div class="inhoudfilm">
                         <img src="images/artwork/Blok04.png" alt="Foto's en video's" style="width:100%">
                         <div class="filmintern">
-                            <video width="270" height="270" controls allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                            <source src="images/video/spiral.mp4" type="video/mp4"></video>
+                            <video width="270" height="270" controls preload="metadata">
+                            <source src="images/video/spiral.mp4" type="video/mp4">
+                            <source src="images/video/spiral.ogg" type="video/ogg"></video>
                         </div>
                     </div>
                 </div>
@@ -93,7 +94,10 @@
                     <div class="inhoudfilm">
                         <img src="images/artwork/Blok04.png" alt="Foto's en video's" style="width:100%">
                         <div class="filmextern">
-                            <object width="270" height="270" data="https://www.youtube.com/embed/YqQx75OPRa0" frameborder="0" controls allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></object>
+                            <video width="157" height="157" poster="images/video/kleinfundamentals.png" loop muted controls preload autoplay>
+                                <source src="https://www.youtube.com/embed/YqQx75OPRa0" type="video/mp4">
+                                <source src="https://www.youtube.com/embed/YqQx75OPRa0" type="video/ogg">
+                                </video>
                             <div class="fullscreen">
                                 <p><a href="https://www.youtube.com/watch?v=YqQx75OPRa0">FULL SCREEN</a></p>
                             </div>
