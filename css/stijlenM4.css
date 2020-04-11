@@ -140,6 +140,16 @@ nav.sub ul ul a {
     color: white;
     text-decoration: none;
     }
+#vaardigheden td, #vaardigheden th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#vaardigheden {
+    padding: 12px;
+    text-align: left;
+    background-color: white;
+    color: #0099a8;
+    }
 footer {
     background-color: lightgrey;
     width: 100%;
