@@ -9,16 +9,22 @@ header, main, .bannertekstpag6 {
     margin: 10px;
 }
 h1 {
-    font-size: 2.1em;
+    font-size: 1.5em;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 700;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
 }
 .content h2 {
     font-size: 1.2em;
     font-weight: 300;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 .content p {
     font-weight: 300;
@@ -31,6 +37,7 @@ h3 {
     font-weight: 900;
     color: #0099a8;
     letter-spacing: 1px;
+    text-transform: uppercase;
 }
 /*h4 is identiek aan H3, maar paars ipv groen*/
 h4 {
@@ -38,12 +45,14 @@ h4 {
     font-weight: 900;
     color: #0099a8;
     letter-spacing: 1px;
+    text-transform: uppercase;
 }
 /*h5 op pagina 6*/
 h5 {   
     font-size: 1em;
     font-weight: 700;
     color: #0099a8;
+    text-transform: uppercase;
 }
 body p {
     font-weight: 300;
@@ -90,6 +99,7 @@ nav.sub ul ul a {
     font-weight: 500;
     margin: 0em;
     padding-bottom: 1em;
+    text-transform: uppercase;
 }
 .tekst1 span {
     font-size: 1em;
@@ -111,6 +121,7 @@ nav.sub ul ul a {
 .h4portfolio {
     width: 100%;
     float: left;
+    text-transform: uppercase;
 }
 /*Styling voor locale en externe film*/
 .inhoudfilm {
@@ -179,19 +190,35 @@ iframe {
     height: auto;
     display: flex;
     position: relative;
-    top: 25px;
+    top: 10px;
 }
-.contactformulier, .bezoekadres {
+.contactformulier {
     display: block;
     position: relative;
-    top: 50px;
+    top: 30px;
     width: 100%;
+    }
+.bezoekadres {
+    display: block;
+    position: relative;
+    top: 135px;
+    width: 100%;
+    }
+.tekst3 h2{
+    font-size: 2em;
+    font-weight: 300;
+    color: black;
+    text-transform: uppercase;
+    padding-top: 20px;
+    letter-spacing: 2px;
     }
 .contactformulier h2, .bezoekadres h2 {
     font-size: 1.2em;
     font-weight: 300;
     color: #0099a8;
     margin-left: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     }
 #naam, #email, #telefoonnummer, #bericht  {
     width: 100%;
@@ -231,6 +258,7 @@ small {
 .bezoekadres h5 {
     margin-top: 45px;
     margin-left: 10px;
+    text-transform: uppercase;
     }
 .bezoekadres p {
     margin-top: 1px;
@@ -435,6 +463,7 @@ iframe {
     }
 .fullscreen a {
     font-size: 0.9em;
+    text-transform: uppercase;
     }
 
 * {
